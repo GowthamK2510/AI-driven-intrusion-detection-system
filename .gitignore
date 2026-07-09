@@ -1,0 +1,29 @@
+# Virtual Environments
+venv/
+__pycache__/
+
+# Datasets and Large Files (GitHub has a 100MB limit)
+*.csv
+*.zip
+*.txt
+*.pkl
+KDDTrain+.txt/
+
+# Models and Checkpoints
+model/
+*.pt
+*.pth
+*.h5
+*.keras
+*.joblib
+
+# Logs
+*.log
+detections_log.csv
+network_scanner.log
+
+# Temporary/Compiled binaries
+combine
+gpu
+preprocessing_cicids2018
+t
